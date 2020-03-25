@@ -24,6 +24,7 @@ const graphQLImports = [
     GraphQLModule.forRoot({
       autoSchemaFile: 'schema.gql',
       playground: true,
+      installSubscriptionHandlers: true
     }),
   ],
   controllers: [AppController],

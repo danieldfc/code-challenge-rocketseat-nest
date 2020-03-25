@@ -40,6 +40,10 @@ type Query {
   getMessage(id: Float!): Message
 }
 
+type Subscription {
+  messageAdded: Message!
+}
+
 type User {
   id: Float!
   email: String!
